@@ -16,7 +16,7 @@ Rails.application.routes.draw do
   get 'astronomy' => 'science#astronomy'
   get 'electromagnetism' => 'science#electromagnetism'
   get 'mechanicsdynamicslagrangianhamiltonian' => 'science#mechanicsdynamicslagrangianhamiltonian'
-  get 'quantummechanics' => 'science#mechanics'
+  get 'quantummechanics' => 'science#quantummechanics'
   get 'thermodynamicsstatisticalmechanics' => 'science#thermodynamicsstatisticalmechanics'
   get 'nuclearparticlephysics' => 'science#nuclearparticlephysics'
   get 'astrophysics' => 'science#astrophysics'
