@@ -5,4 +5,6 @@ class MathController < ApplicationController
     end
     def geometry
     end
+    def trigonometry
+    end
 end

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get 'science' => 'science#shome'
   get 'algebra' => 'math#algebra'
   get 'geometry' => 'math#geometry'
+  get 'trigonometry' => 'math#trigonometry'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
