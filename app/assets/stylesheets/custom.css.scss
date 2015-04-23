@@ -2,7 +2,7 @@
 @import "bootstrap";
 
 /* mixins, variables, etc. */
-$primary_color: #BAC;
+$primary_color: #BBB;
 $gml: #eaeaea;
 
 /* universal */
@@ -41,12 +41,12 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8em;
+  font-size: 1.4em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: $gml;
+  color: #fgrdfe;
 }
 
 /* header */
