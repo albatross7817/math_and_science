@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'trigonometry' => 'math#trigonometry'
   get 'calculus' => 'math#calculus'
   get 'differentialequations' => 'math#differentialequations'
+  get 'matrixmethodslinearalgebra' =>'math#matrixmethodslinearalgebra'
   get 'numericalanalysis' => 'math#numericalanalysis'
   get 'complexvariables' => 'math#complexvariables'
   get 'fourieranalysis' => 'math#fourieranalysis'

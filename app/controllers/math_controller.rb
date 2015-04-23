@@ -11,6 +11,8 @@ class MathController < ApplicationController
     end
     def differentialequations
     end
+    def matrixmethodslinearalgebra
+    end
     def numericalanalysis
     end
     def complexvariables
