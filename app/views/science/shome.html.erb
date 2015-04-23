@@ -4,15 +4,18 @@
          <h1><b>SCIENCE</b></h1>
      </div>
      <div>
-     <h2><p>This website is dedicated to generating and maintaining poeple's interest in mathematics and science.  
-     There is something here for everyone.  Current events, research material, historical perspectives, and an 
-     all-inclusive online blogging community are just some of the many features this math and science webpage
-     offers.  Please peruse the website at your leisure.  Who knows, you may learn something new or gain a different
-     perspective concerning math and science from what you had before coming to this site.  Enjoy!</p></h2>
-       <p><b><u>Why Math and Science?</u></b><br>
-       The United States is falling behind other countries when it comes to proficiency in mathematics and 
-       scientific studies.</p>
-    </div>
-    
+     <h2><p>This is the science home page.  Below are links to pages with information about
+     some of the exciting fields of scientific studies.  </p></h2>
+       <ul>
+           <li><%= link_to "General Physics", generalphysics_path %></li>
+           <li><%= link_to "Astronomy", astronomy_path %></li>
+           <li><%= link_to "Mechanics, Dynamics, Largangian, Hamiltionain", trigonometry_path %></li>
+           <li><%= link_to "Calculus", calculus_path %></li>
+           <li><%= link_to "Differential Equations", differentialequations_path %></li>
+           <li><%= link_to "Numerical Analysis", numericalanalysis_path %></li>
+           <li><%= link_to "Complex Variables", complexvariables_path %></li>
+           <li><%= link_to "Fourier Analysis", fourieranalysis_path %></li>
+       </ul>
+       </div>
   </body>    
 </html>

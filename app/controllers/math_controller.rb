@@ -7,4 +7,14 @@ class MathController < ApplicationController
     end
     def trigonometry
     end
+    def calculus
+    end
+    def differentialequations
+    end
+    def numericalanalysis
+    end
+    def complexvariables
+    end
+    def fourieranalysis
+    end
 end
