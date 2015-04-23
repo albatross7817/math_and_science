@@ -3,4 +3,6 @@ class MathController < ApplicationController
     end
     def algebra
     end
+    def geometry
+    end
 end
