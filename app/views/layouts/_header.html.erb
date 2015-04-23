@@ -1,8 +1,9 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
-        <%= link_to "Math and Science", root_path, id: "logo" %>
+        <%= link_to "Math and Science Home", root_path, id: "logo" %>
         <nav>
           <ul class="nav navbar-nav navbar-right">
+            <li><%= link_to "Math", math_path %></li>
             <li><a href=https://math-and-science-blogger.herokuapp.com/>Blogger</a></li>
             <li><%= link_to "About",   about_path %></li>
             <li><%= link_to "Contact", contact_path %></li>
