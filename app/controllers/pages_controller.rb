@@ -5,8 +5,4 @@ class PagesController < ApplicationController
   end
   def about
   end
-  def math
-  end
-  def science
-  end
 end
